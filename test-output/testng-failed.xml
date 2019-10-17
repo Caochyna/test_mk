@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="MavenTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.baidu.com"/>
+    <classes>
+      <class name="com.cql.BrowerTest">
+        <methods>
+          <include name="browerTest"/>
+          <include name="tearDownClass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.cql.BrowerTest -->
+    </classes>
+  </test> <!-- MavenTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
