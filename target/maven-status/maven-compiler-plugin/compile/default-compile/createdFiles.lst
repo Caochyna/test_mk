@@ -1,0 +1,8 @@
+com\cql\mail\AutoMail.class
+com\cql\mail\MailInfo.class
+com\cql\mail\SendMail.class
+com\cql\extentx\ExtentManager.class
+com\cql\mail\ReadHtml.class
+com\cql\mail\MyAuthenticator.class
+com\cql\base\ReadProperties.class
+com\cql\extentx\ExtentTestNGITestListener.class

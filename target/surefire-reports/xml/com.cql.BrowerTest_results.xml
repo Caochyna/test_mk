@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MavenTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.224">
+  <properties />
+  
+  
+            <testcase name="browerTest" time="2.135" classname="com.cql.BrowerTest" />
+                <testcase name="browerTest" time="2.089" classname="com.cql.BrowerTest" />
+      
+</testsuite>
